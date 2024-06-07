@@ -1,0 +1,263 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    /* background: url(img/banner.jpg) ; */
+    background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img/banner.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mycolor-org{
+    color: #ff7200;
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mycolor-org{
+    color: #ff7200;
+    font-family: Arial;
+}
+.custom-border-bottom {
+    border-bottom: 2px solid #ff7200; /* Change #ff0000 to your desired color */
+  }
+  .custom-list-item {
+    font-family: Arial;
+    font-weight: bold;
+    color: solid white;
+    margin-left: 55px;
+  }
+  .NavColor{
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+    transition: color 0.4s ease-in-out;
+    font-size: 14px;
+  }
+  .NavColor:hover{
+    color: #ff7200;
+  }
+.navlogin .btnn{
+  width: 100px;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
+  .mrgControl{
+    margin-right: -0.2rem;
+    
+  }
+ .Myform-control{
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  background: transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+ /* color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;*/
+  /*background-color: var(--bs-body-bg);
+  background-clip: padding-box;*/
+  border: 1px solid #ff7200;
+ /* border-radius: var(--bs-border-radius);*/
+ /*transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;*/
+}
+
+.btn{
+  --bs-body-color:#fff;
+  --bs-btn-font-family: Arial;
+
+}
+.Mybtn{
+  background: #ff7200;
+  font-family: Arial;
+  border: 2px solid #ff7200;
+  color: #fff;
+    border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+
+ 
+.BackgroundColor{
+    background-color: rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+}
+.sidebar .justify-content-center {
+  margin-right: 55px;
+}
+
+
+/* titel */
+.col{
+  padding-top: 20px;
+}
+
+.content h1{
+  font-family: Arial;
+  font-weight: bold;
+  color: #fff;
+  font-size: 50px;
+  
+  margin-top: 15%;
+  letter-spacing: 2px;
+}
+.content span{
+  color: #ff7200;
+}
+.content p{
+  color: #fff;
+  font-family: Arial;
+}
+.cn{
+  background: #ff7200;
+  height: 40px;
+  width: 160px;
+  border-radius: 10px;
+  border: none;
+}
+.cn a{
+  text-decoration: none;
+  color: black;
+  font-family:Arial ;
+  
+}
+
+.cn:hover{
+  background-color: #fff;
+}
+
+/*login */
+
+.form{
+  width: 252px;
+  height: 384px;
+  margin-top: 5%;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 20%;
+}
+
+.form h2{
+  width: 220px;
+  
+  font-family:sans-serif ;
+  text-align: center;
+  font-size: 22px;
+  color: #ff7200;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 2px;
+  margin-top: 18px;
+  margin-bottom: 22px;
+  margin-left: 15px;
+  
+}
+.form input{
+  background: transparent;
+  border: 1px solid #ff7200;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-family: sans-serif;
+  color: #fff;
+  display: flex;
+  margin-left: 10px;
+  width: 230px;
+  height: 30px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 30px;
+  
+}
+
+.form input:focus{
+  outline: none;
+
+}
+
+
+::placeholder{
+  color: #fff;
+  font-family: Arial;
+}
+.btnn{
+  width: 218px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+  margin-left: 15px;
+}
+.btnn:hover{
+  background: #fff;
+  color: #ff7200;
+}
+.btnn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.form .link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 10px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.form .link a{
+  text-decoration: none;
+  color: #ff7200;
+}
+.liw{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1px;
+  text-align: center;
+  text-align: center;
+  color: #fff;
+}
+
+/*icon*/
+.icons a{
+  text-decoration: none;
+  color: #fff;
+}
+.icons ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+  color: #ff7200;
+}
+
+@media (max-width:991px) {
+  .content h1{
+    font-size: 48px;
+    letter-spacing: 1px;
+  }
+  
+}
